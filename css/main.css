@@ -1,0 +1,130 @@
+/*Cascading Style Sheets*/
+body{
+	margin: 0;
+	
+}
+nav img {
+	width: 270px;
+	padding-left: 50px;
+	padding-top: 20px;
+}
+nav {
+	background-color:#FDAC4E;
+	margin: 0 auto;
+	max-width: 100%;
+}
+nav li {
+	color: white;
+	display: inline-block;
+	font-size: 1.5rem;
+	padding: 50px 30px;
+	
+
+	
+}
+ul {
+	text-align: right;
+	vertical-align: top;
+	margin: 0 auto;
+}
+
+/*centers the elements in the nav bar*/
+#nav {
+	display: inline-block;
+	text-align: center;
+}
+
+/*search bar section*/
+div.search {
+	padding: 10px 80px 10px 10px;
+	text-align: right;
+	background-color: #f4fcfe;
+}
+
+
+.search button{
+	text-align: right;
+	 background-color: #f0f0f0;
+    border: none;
+    color: gray;
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 5px 8px;
+}
+.search i{
+	padding-left: 150px;
+	font-size: 25px;
+}
+.search button:hover {
+	background-color: silver;
+}
+
+/*main section of the page*/
+main {
+	background-color: #f4fcfe;
+}
+.left, .right {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.left img {
+	width: 500px; 
+	padding: 20px 30px 20px 70px;
+
+}
+
+.right p{
+	color: #FDAC4E;
+	font-size: 50px;
+	width: 550px;
+
+}
+
+.right span{
+	color: #69C480;
+}
+
+.right b { 
+    font-weight: bold;
+}
+.one, .two {
+	display: inline-block;
+}
+
+.one button{
+	 background-color: #69C480;
+    border: none;
+    color: white;
+    padding: 15px 55px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.two button{
+	 background-color: #FDAC4E;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+div .two{
+	padding-left: 50px;
+}
+
+footer{
+	text-align: center;
+	background-color: #69C480;
+	padding: 25px 25px 100px 25px;
+	vertical-align: top;
+
+}
+footer i {
+	color: white;
+	font-size: 27px;
+	padding-left: 50px;
+	
+}
