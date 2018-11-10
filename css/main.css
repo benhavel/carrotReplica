@@ -18,14 +18,14 @@ nav div{
 nav li{
 	display: inline-block;
 	color: white;
-	padding: 5px;
-	padding-left: 20px;
+	padding-bottom: 20px;
+	padding-right: 25px;
 	text-align: right;
 	font-size: 18px;
 
 }
 div#right{
-	padding-left: 660px;
+	float: right;
 }
 
 .my span {
@@ -289,5 +289,19 @@ div.group3, div.group4 {
 }
 .button button:hover {
 	background-color: white;
+
+}
+
+@media (max-width: 720px) {
+	.my {
+	margin: 0 auto;
+	padding: 10px;
+	color: white;
+	}
+
+	div#right{
+	display: none;
+	}
+	
 
 }
